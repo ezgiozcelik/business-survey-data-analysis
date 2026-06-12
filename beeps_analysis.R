@@ -25,7 +25,7 @@ PATH_VDEM  <- "vdem/vdem.csv"
 
 # DATA PREPARATION----
 
-## load data----
+## load main data----
 beeps <- read.csv(PATH_BEEPS)
 
 ## rename relevant variables----

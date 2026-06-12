@@ -25,7 +25,7 @@ PATH_VDEM  <- "vdem/vdem.csv"
 
 # DATA PREPARATION----
 
-## load main data----
+## load data----
 beeps <- read.csv(PATH_BEEPS)
 
 ## rename relevant variables----
@@ -309,7 +309,8 @@ vdem_ca <- vdem %>%
   distinct()
 
 vdem_ca <- vdem_ca %>%
-  mutate(iso3c = countrycode(COWcode, origin = "cown", destination = "iso3c"))
+  mutate(iso3c = countrycode(COWcode, origin = "cown", destination = "iso3c")) %>%
+  filter(!is.na(iso3c))
 
 #left join beeps_clean with vdem_ca data
 beeps_merged <- beeps_clean %>%

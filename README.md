@@ -12,15 +12,15 @@ What are the effects of firms' market capacity characteristics on their influenc
 How does the political regime type of a country in which a firm operates moderate these effects?
 
 *Data Sources*:
-EBDR's Business Environment and Enterprise Performance Survey (BEEPS) data 
-Varieties of Democracy (V-dem) dataset accountability indicators
+EBDR's Business Environment and Enterprise Performance Survey (BEEPS) data, 
+Varieties of Democracy (V-dem) dataset accountability indicators,
 World Bank Official Exchange Rate dataset
 
 *Methods*:
-Data importing and cleaning
-Merging datasets
-Variable construction
-Statistical analysis (hierarchical random effects models to analyze multi-level data)
+Data importing and cleaning,
+Merging datasets,
+Variable construction,
+Statistical analysis (hierarchical random effects models to analyze multi-level data),
 Data visualization (marginal effects plots)
 
 *Note*: 
